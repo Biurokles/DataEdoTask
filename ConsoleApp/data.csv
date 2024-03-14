@@ -84,7 +84,6 @@ Table;Illustration;Production;AdventureWorks2016_EXT;Database;NULL;
 Table;PhoneNumberType;Person;AdventureWorks2016_EXT;Database;NULL;
 Table;SpecialOffer_inmem;Sales;AdventureWorks2016_EXT;Database;NULL;
 Table;Employee_Temporal_History;HumanResources;AdventureWorks2016_EXT;DATABASE;NULL;
-
 Table;JobCandidate;HumanResources;AdventureWorks2016_EXT;Database;NULL;
 database;BaseballData;;;;;
 Table;Location;Production;AdventureWorks2016_EXT;Database;NULL;
@@ -177,7 +176,6 @@ column;Title;Person;Person;TABLE;nvarchar;1
 column;ModifiedDate;Sales;SalesTaxRate;TABLE;datetime;0
 column;Name;Sales;SalesTaxRate;TABLE;Name: nvarchar;0
 column;rowguid;Sales;SalesTaxRate;table;uniqueidentifier;0
-
 column;SalesTaxRateID;Sales;SalesTaxRate;TABLE;int;0
 column;StateProvinceID;Sales;SalesTaxRate;TABLE;int;0
 column;TaxRate;Sales;SalesTaxRate;TABLE;smallmoney;0
@@ -206,7 +204,6 @@ column;BusinessEntityID;Person;PersonPhone;TABLE;int;0
 column;ModifiedDate;Person;PersonPhone;TABLE;datetime;0
 column;PhoneNumber;Person;PersonPhone;TABLE;Phone: nvarchar;0
 column;PhoneNumberTypeID;Person;PersonPhone;TABLE;int;0
-
 column;AdditionalContactInfo;HumanResources;vEmployee;TABLE;xml;1
 column;AddressLine1;HumanResources;vEmployee;table;nvarchar;0
 column;AddressLine2;HumanResources;vEmployee;table;nvarchar;1
@@ -274,7 +271,6 @@ column;MiddleName;Sales;vIndividualCustomer;TABLE;Name: nvarchar;1
 column;PhoneNumber;Sales;vIndividualCustomer;TABLE;Phone: nvarchar;1
 column;PhoneNumberType;Sales;vIndividualCustomer;TABLE;Name: nvarchar;1
 column;PostalCode;Sales;vIndividualCustomer;TABLE;nvarchar;0
-
 column;StateProvinceName;Sales;vIndividualCustomer;TABLE;Name: nvarchar;0
 column;Suffix;Sales;vIndividualCustomer;TABLE;nvarchar;1
 column;Title;Sales;vIndividualCustomer;TABLE;nvarchar;1
@@ -412,7 +408,6 @@ column;PhoneNumber;Sales;vSalesPerson;TABLE;Phone: nvarchar;1
 column;PhoneNumberType;Sales;vSalesPerson;TABLE;Name: nvarchar;1
 column;PostalCode;Sales;vSalesPerson;TABLE;nvarchar;0
 column;SalesLastYear;Sales;vSalesPerson;TABLE;money;0
-
 column;SalesQuota;Sales;vSalesPerson;TABLE;money;1
 column;SalesYTD;Sales;vSalesPerson;TABLE;money;0
 column;StateProvinceName;Sales;vSalesPerson;TABLE;Name: nvarchar;0
@@ -1428,4 +1423,3 @@ column;TerritoryDescription;dbo;Territories;TABLE;nchar;0
 column;RegionID;dbo;Territories;TABLE;int;0
 column;EmployeeID;dbo;EmployeeTerritories;TABLE;int;0
 column;TerritoryID;dbo;EmployeeTerritories;TABLE;nvarchar;0
-
